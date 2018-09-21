@@ -4,5 +4,5 @@ function bin(x){
         cont=(x%2)+cont;
         x=Math.floor(x/2);
     }
-    console.log(cont);
+    return(cont);
 }
